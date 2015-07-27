@@ -23,8 +23,8 @@ sys.path.append(os.path.join(os.getenv('ANDROID_BUILD_TOP'), 'build/tools'))
 from post_process_props import PropFile, validate
 
 
-lcd_changer = {"213": "182", "240": "200",
-               "320": "280", "480": "400", "560" : "480"}
+lcd_changer = {"213": "213", "240": "240",
+               "320": "320", "480": "480", "560" : "560"}
 
 
 def mangle_lcd_prop(prop):
