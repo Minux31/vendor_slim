@@ -93,8 +93,7 @@ PRODUCT_PACKAGES += \
     SlimCenter \
     SlimLauncher \
     LatinIME \
-    BluetoothExt \
-    DashClock
+    BluetoothExt
 
 #    SlimFileManager removed until updated
 
@@ -171,8 +170,8 @@ ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
 ifndef SLIM_BUILD_TYPE
-    SLIM_BUILD_TYPE := UNOFFICIAL
-    PLATFORM_VERSION_CODENAME := UNOFFICIAL
+    SLIM_BUILD_TYPE := MinuxBuild
+    PLATFORM_VERSION_CODENAME := MinuxBuild
     SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
 
