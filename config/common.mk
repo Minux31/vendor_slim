@@ -171,8 +171,8 @@ ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
 ifndef SLIM_BUILD_TYPE
-    SLIM_BUILD_TYPE := MinuxBuild
-    PLATFORM_VERSION_CODENAME := MinuxBuild
+    SLIM_BUILD_TYPE := minuxbuild
+    PLATFORM_VERSION_CODENAME := minuxbuild
     SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
 
