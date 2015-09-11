@@ -154,10 +154,8 @@
   <apn carrier="NRJWEB" mcc="208" mnc="02" apn="ofnew.fr" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Orange GPRS ISP" mcc="208" mnc="02" apn="orange.fr" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Simyo Web" mcc="208" mnc="02" apn="gprs-service-fr.net" proxy="195.230.105.25" port="8080" user="" password="" mmsc="" authtype="3" type="default,supl" />
-  <apn carrier="SFR MMS" mcc="208" mnc="09" apn="mmssfr" mmsc="http://mms1" mmsproxy="10.151.0.1" mmsport="8080" type="mms" />
-  <apn carrier="SFR" mcc="208" mnc="09" apn="sl2sfr" server="*" type="default,supl" />
-  <apn carrier="SFR WAP" mcc="208" mnc="09" apn="wapsfr" user="none" password="none" server="*" proxy="195.115.25.129" port="8080" type="default,supl" />
-  <apn carrier="SFR ACCESS DATA" mcc="208" mnc="09" apn="websfr" type="default,supl" />
+  <apn carrier="SFR webphone" mcc="208" mnc="10" apn="sl2sfr" mmsc="http://mms1" mmsproxy="10.151.0.1" mmsport="8080" type="default,hipri,mms" />
+  <apn carrier="SFR option modem" apn="websfr" type="dun" />
   <apn carrier="Auchan WAP" mcc="208" mnc="10" apn="wap65" proxy="192.168.21.8" port="8080" spn="Auchan" type="default,supl" />
   <apn carrier="Auchan MMS" mcc="208" mnc="10" apn="mms65" proxy="" port="" mmsproxy="10.143.156.8" mmsport="8080" mmsc="http://mms65" spn="Auchan" type="mms" />
   <apn carrier="WAP simplicime" mcc="208" mnc="10" apn="wapdebitel" proxy="192.168.21.3" port="8080" spn="Debitel" type="default,supl" />
