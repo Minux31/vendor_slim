@@ -84,9 +84,10 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     PhaseBeam
 
-# AudioFX
+# AudioFX & Eleven
 PRODUCT_PACKAGES += \
-    AudioFX
+    AudioFX \
+    Eleven
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
