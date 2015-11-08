@@ -171,15 +171,24 @@ endif
 # SlimLP first version.
 PRODUCT_VERSION_MAJOR = 5.1.1
 PRODUCT_VERSION_MINOR = beta
-PRODUCT_VERSION_MAINTENANCE = 0.11
+PRODUCT_VERSION_MAINTENANCE = 0.12
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
 ifndef SLIM_BUILD_TYPE
     SLIM_BUILD_TYPE := minuxbuild
     PLATFORM_VERSION_CODENAME := minuxbuild
+endif
+
+ifeq ($(SLIM_BUILD_TYPE),DM)
+    SLIM_POSTFIX := -$(shell date +"%Y%m%d")
+endif
+
+ifndef SLIM_POSTFIX
     SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
+
+PLATFORM_VERSION_CODENAME := $(SLIM_BUILD_TYPE)
 
 # SlimIRC
 # export INCLUDE_SLIMIRC=1 for unofficial builds
